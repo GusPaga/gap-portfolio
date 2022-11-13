@@ -1,0 +1,15 @@
+#formation {
+    .title{
+        background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    }
+    color: #fff;
+    text-shadow: 1px 2px black;
+    // position: relative;
+    .carousel-inner{
+        img {
+            max-height: 60vh;
+            object-fit:scale-down;
+            //filter: grayscale(70%);
+        }
+    }
+}

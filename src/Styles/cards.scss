@@ -1,0 +1,24 @@
+#cards {
+    
+    h2, small {
+        color: #fff;
+        text-shadow: 1px 3px black;
+    }
+    p {
+        color: black;
+    }
+    .fs-30 {
+        font-size: 30px;
+    }
+    .cardsAnimation {
+        
+        &:hover {
+            transition: all .9s;
+            transform: scale(1.1);
+            .card {
+                background-color: #000000;
+            }
+        }
+    }
+
+}
