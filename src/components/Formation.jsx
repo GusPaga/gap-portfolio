@@ -5,8 +5,8 @@ export const Formation = () => {
     <div id="formation">
       <div className="container-fluid">
         <div className="row">
-          <div className="title col text-center text-uppercase mb-4 mt-3">
-            <h2>Formación</h2>
+          <div className="title col text-center text-uppercase mb-4">
+            <h2 className="mt-2">Formación</h2>
             <small>Estos son algunas de mis certificaciones</small>
           </div>
           <div

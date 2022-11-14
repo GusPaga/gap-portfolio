@@ -30,8 +30,8 @@ export const Carrousel = () => {
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-12 col-md-6 offset-md-3 text-center text-md-right position-absolute top-50 start-50 translate-middle">
-                  <h2>Mendoza - Argentina</h2>
-                  <small>Desde</small>
+                  <h2>Gustavo Pagano</h2>
+                  <small>Full Stack Developer</small>
                   <p>
                     Soy un entusiasta de la tecnología,
                     <br />

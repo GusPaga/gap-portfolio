@@ -33,7 +33,12 @@ export const NavBar = () => {
                 aria-current="page"
                 href="#carrousel"
               >
-                Portada
+                Presentación
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link " aria-current="page" href="#tech">
+                Tecnologías
               </a>
             </li>
             <li className="nav-item">

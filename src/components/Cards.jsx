@@ -1,10 +1,10 @@
 export const Cards = () => {
   return (
     <div id="cards" className="mx-auto mt-5">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col text-center text-uppercase mb-4 mt-3">
-            <h2>Proyectos</h2>
+          <div className="title col text-center text-uppercase mb-4 mt-3">
+            <h2 className="mt-2">Proyectos</h2>
             <small>Personales y Grupales</small>
           </div>
         </div>
