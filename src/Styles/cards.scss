@@ -1,4 +1,7 @@
 #cards {
+    .card {
+        min-height: 500px;
+    }
     .title{
         // Metal Aurum //
         background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
@@ -22,7 +25,6 @@
         font-size: 30px;
     }
     .cardsAnimation {
-        
         &:hover {
             transition: all .9s;
             transform: scale(1.1);

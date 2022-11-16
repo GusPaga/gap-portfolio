@@ -26,7 +26,7 @@ export const Cards = () => {
                     FireBase
                   </span>
                   <span className="rounded-pill bg-info text-white fst-italic p-1">
-                    NotMailer
+                    NodeMailer
                   </span>
                   <span className="rounded-pill bg-warning text-white fst-italic p-1">
                     Mercado Pago
@@ -40,7 +40,7 @@ export const Cards = () => {
                   aplicamos metodologías ágiles (SCRUM) para coordinar los
                   esfuerzos de los integrantes del equipo a través del software
                   “Trello”, además aplicamos distintas nuevas tecnologías como
-                  “Mercado Pago”, “FireBase”, “Cloudinary”, “NotMailer”,“ React
+                  “Mercado Pago”, “FireBase”, “Cloudinary”, “NodeMailer”,“ React
                   Admin”, entre otras.{" "}
                 </p>
                 <p>
@@ -102,30 +102,27 @@ export const Cards = () => {
                 <h5 className="card-title mb-0 fst-italic text-center mb-2 fs-30">
                   "Gap-Dogs-Api"
                 </h5>
-                <div className="badges mb-2 d-flex justify-content-around d-flex">
+                <div className="badges mb-2 justify-content-around">
                   <span className="rounded-pill bg-warning text-white p-1 ">
                     JavaScript
-                  </span>
+                  </span>{" "}
                   <span className="rounded-pill bg-info text-white p-1">
                     React
-                  </span>
+                  </span>{" "}
                   <span className="rounded-pill bg-warning text-white p-1">
                     Redux
-                  </span>
+                  </span>{" "}
                   <span className="rounded-pill bg-info text-white p-1">
                     Expess
-                  </span>
+                  </span>{" "}
                   <span className="rounded-pill bg-warning text-white p-1 ">
                     Postgres
                   </span>
                 </div>
                 <p className="card-text">
-                  Este fue el proyecto final (PF) para Soy Henry, en donde
-                  aplicamos metodologías ágiles (SCRUM) para coordinar los
-                  esfuerzos de los integrantes del equipo a través del software
-                  “Trello”, además aplicamos distintas nuevas tecnologías como
-                  “Mercado Pago”, “FireBase”, “Cloudinary”, “NotMailer”,“ React
-                  Admin”, entre muchas otras.
+                  Este proyecto, me permitió mejorar la componentización y el
+                  orden del código, consolidando los conocimientes de Css
+                  Modules, React.Js, Redux.Js
                 </p>
                 <p>
                   Si quieres conocer este sitio has click{" "}
@@ -212,7 +209,7 @@ export const Cards = () => {
                   aplicamos metodologías ágiles (SCRUM) para coordinar los
                   esfuerzos de los integrantes del equipo a través del software
                   “Trello”, además aplicamos distintas nuevas tecnologías como
-                  “Mercado Pago”, “FireBase”, “Cloudinary”, “NotMailer”,“ React
+                  “Mercado Pago”, “FireBase”, “Cloudinary”, “NodeMailer”,“ React
                   Admin”, entre muchas otras.
                 </p>
                 <p>
@@ -221,7 +218,11 @@ export const Cards = () => {
                     aquí
                   </a>
                   .{" "}
-                  <a href="*" data-bs-toggle="modal" data-bs-target="#modalCyb">
+                  <a
+                    href="*"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalFoods"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -362,19 +363,19 @@ export const Cards = () => {
               <div className="row mx-auto">
                 <div className="col col-md-6 col-lg-6">
                   <img
-                    src="https://i.ibb.co/b647h8Z/C-B.png"
+                    src="https://i.ibb.co/f1Zvr1c/C-B1.png"
                     className="w-100 mb-4 rounded"
                     alt="C&B"
                   />
                   <img
-                    src="https://i.ibb.co/b647h8Z/C-B.png"
+                    src="https://i.ibb.co/VmH5Yhy/C-B-home.png"
                     className="w-100 mb-4 rounded"
                     alt="C&B"
                   />
                 </div>
                 <div className="col col-md-6 col-lg-6">
                   <img
-                    src="https://i.ibb.co/b647h8Z/C-B.png"
+                    src="https://i.ibb.co/WHKhVFz/C-B-Detail.png"
                     className="w-100 mb-4 rounded"
                     alt="C&B"
                   />
@@ -409,24 +410,24 @@ export const Cards = () => {
               <div className="row mx-auto">
                 <div className="col col-md-6 col-lg-6">
                   <img
-                    src="https://i.ibb.co/b647h8Z/C-B.png"
+                    src="https://i.ibb.co/ydxk5dD/Sin-t-tulo.png"
                     className="w-100 mb-4 rounded"
                     alt="C&B"
                   />
                   <img
-                    src="https://i.ibb.co/b647h8Z/C-B.png"
+                    src="https://i.ibb.co/nBq7Ks4/dogs2.png"
                     className="w-100 mb-4 rounded"
                     alt="C&B"
                   />
                 </div>
                 <div className="col col-md-6 col-lg-6">
                   <img
-                    src="https://i.ibb.co/b647h8Z/C-B.png"
+                    src="https://i.ibb.co/Qb70Q9T/dogs3.png"
                     className="w-100 mb-4 rounded"
                     alt="C&B"
                   />
                   <img
-                    src="https://i.ibb.co/b647h8Z/C-B.png"
+                    src="https://i.ibb.co/Vxb4rSz/dogs4.png"
                     className="w-100 mb-4 rounded"
                     alt="C&B"
                   />
@@ -438,6 +439,52 @@ export const Cards = () => {
         </div>
       </div>
       {/* MODAL DOGS */}
+      {/* MODAL FOODS */}
+      <div class="modal" id="modalFoods" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">"Cake & Bases"</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div className="row mx-auto">
+                <div className="col col-md-6 col-lg-6">
+                  <img
+                    src="https://i.ibb.co/dfDDgXR/landing.png"
+                    className="w-100 mb-4 rounded"
+                    alt="C&B"
+                  />
+                  <img
+                    src="https://i.ibb.co/4gp8QFW/home.png"
+                    className="w-100 mb-4 rounded"
+                    alt="C&B"
+                  />
+                </div>
+                <div className="col col-md-6 col-lg-6">
+                  <img
+                    src="https://i.ibb.co/6RNZmvp/form.png"
+                    className="w-100 mb-4 rounded"
+                    alt="C&B"
+                  />
+                  <img
+                    src="https://i.ibb.co/wBwTFtw/Foods.png"
+                    className="w-100 mb-4 rounded"
+                    alt="C&B"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer"></div>
+          </div>
+        </div>
+      </div>
+      {/* MODAL FOODS */}
     </div>
   );
 };
