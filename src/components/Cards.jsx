@@ -8,7 +8,7 @@ export const Cards = () => {
             <small>Personales y Grupales</small>
           </div>
         </div>
-        <div className="row mb-5">
+        <div className="row mx-auto mb-5">
           {/* TARJETA C&B */}
           <div className="col-12 col-md-6 col-lg-4  cardsAnimation">
             <div className="card p-3 mb-5 bg-body rounded">
@@ -18,24 +18,24 @@ export const Cards = () => {
                 alt="C&B"
               />
               <div className="card-body">
-                <h5 className="card-title mb-0 fst-italic text-center mb-2 fs-30">
+                <h5 className="card-title fst-italic text-center mt-3 fs-30">
                   "Cake & Bases"
                 </h5>
-                <div className="badges mb-2 d-flex justify-content-around d-flex">
-                  <span className="rounded-pill bg-warning text-white fst-italic fst-italic p-1">
+                <div className="badges mt-4 d-flex flex-wrap justify-content-around">
+                  <span className="rounded-pill bg-warning text-white mt-2 mx-2 px-2 py-1">
                     FireBase
-                  </span>
-                  <span className="rounded-pill bg-info text-white fst-italic p-1">
+                  </span>{" "}
+                  <span className="rounded-pill bg-info text-white fst-italic mt-2 mx-2 px-2 py-1">
                     NodeMailer
-                  </span>
-                  <span className="rounded-pill bg-warning text-white fst-italic p-1">
+                  </span>{" "}
+                  <span className="rounded-pill bg-warning text-white fst-italic mt-2 mx-2 px-2 py-1">
                     Mercado Pago
-                  </span>
-                  <span className="rounded-pill bg-info text-white fst-italic p-1">
+                  </span>{" "}
+                  <span className="rounded-pill bg-info text-white fst-italic mt-2 mx-2 px-2 py-1">
                     Cloudinary
-                  </span>
+                  </span>{" "}
                 </div>
-                <p className="card-text">
+                <p className="card-text mt-4">
                   Este fue el proyecto final (PF) para Soy Henry, en donde
                   aplicamos metodologías ágiles (SCRUM) para coordinar los
                   esfuerzos de los integrantes del equipo a través del software
@@ -99,27 +99,27 @@ export const Cards = () => {
                 alt="Dogs"
               />
               <div className="card-body">
-                <h5 className="card-title mb-0 fst-italic text-center mb-2 fs-30">
+                <h5 className="card-title fst-italic text-center mt-3 fs-30">
                   "Gap-Dogs-Api"
                 </h5>
-                <div className="badges mb-2 justify-content-around">
-                  <span className="rounded-pill bg-warning text-white p-1 ">
+                <div className="badges mt-4 d-flex flex-wrap justify-content-around">
+                  <span className="rounded-pill bg-warning text-white mt-2 mx-2 px-2 py-1">
                     JavaScript
                   </span>{" "}
-                  <span className="rounded-pill bg-info text-white p-1">
+                  <span className="rounded-pill bg-info text-white mt-2 mx-2 px-2 py-1">
                     React
                   </span>{" "}
-                  <span className="rounded-pill bg-warning text-white p-1">
+                  <span className="rounded-pill bg-warning text-white mt-2 mx-2 px-2 py-1">
                     Redux
                   </span>{" "}
-                  <span className="rounded-pill bg-info text-white p-1">
+                  <span className="rounded-pill bg-info text-white mt-2 mx-2 px-2 py-1">
                     Expess
                   </span>{" "}
-                  <span className="rounded-pill bg-warning text-white p-1 ">
+                  <span className="rounded-pill bg-warning text-white mt-2 mx-2 px-2 py-1 ">
                     Postgres
                   </span>
                 </div>
-                <p className="card-text">
+                <p className="card-text mt-4">
                   Este proyecto, me permitió mejorar la componentización y el
                   orden del código, consolidando los conocimientes de Css
                   Modules, React.Js, Redux.Js
@@ -184,27 +184,27 @@ export const Cards = () => {
                 alt="C&B"
               />
               <div className="card-body">
-                <h5 className="card-title mb-0 fst-italic text-center mb-2 fs-30">
+                <h5 className="card-title fst-italic text-center mt-3 fs-30">
                   "Gap-Foods-Api"
                 </h5>
-                <div className="badges mb-2 d-flex justify-content-around d-flex">
-                  <span className="rounded-pill bg-warning text-white p-1 ">
+                <div className="badges mt-4 d-flex flex-wrap justify-content-around">
+                  <span className="rounded-pill bg-warning text-white mt-2 mx-2 px-2 py-1">
                     React
                   </span>
-                  <span className="rounded-pill bg-info text-white p-1">
+                  <span className="rounded-pill bg-info text-white mt-2 mx-2 px-2 py-1">
                     Redux
                   </span>
-                  <span className="rounded-pill bg-warning text-white p-1">
+                  <span className="rounded-pill bg-warning text-white mt-2 mx-2 px-2 py-1">
                     JavaScript
                   </span>
-                  <span className="rounded-pill bg-info text-white p-1">
+                  <span className="rounded-pill bg-info text-white mt-2 mx-2 px-2 py-1">
                     Express
                   </span>
-                  <span className="rounded-pill bg-warning text-white p-1">
+                  <span className="rounded-pill bg-warning text-white mt-2 mx-2 px-2 py-1">
                     Postgres
                   </span>
                 </div>
-                <p className="card-text">
+                <p className="card-text mt-4">
                   Este fue el proyecto final (PF) para Soy Henry, en donde
                   aplicamos metodologías ágiles (SCRUM) para coordinar los
                   esfuerzos de los integrantes del equipo a través del software
@@ -269,30 +269,24 @@ export const Cards = () => {
                 alt="Bootstrap"
               />
               <div className="card-body">
-                <h5 className="card-title mb-0 fst-italic text-center mb-2 fs-30">
-                  <a
-                    href="https://github.com/GusPaga/Bootstrap-practice"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    "Bootstrap"
-                  </a>
+                <h5 className="card-title fst-italic text-center mt-3 fs-30">
+                  "Bootstrap"
                 </h5>
-                <div className="badges mb-2 d-flex justify-content-around d-flex">
-                  <span className="rounded-pill bg-warning text-white p-1 ">
+                <div className="badges mt-4 d-flex flex-wrap justify-content-around">
+                  <span className="rounded-pill bg-warning text-white mt-2 mx-2 px-2 py-1">
                     Bootstap
                   </span>
-                  <span className="rounded-pill bg-info text-white p-1">
+                  <span className="rounded-pill bg-info text-white mt-2 mx-2 px-2 py-1">
                     JavaScript
                   </span>
-                  <span className="rounded-pill bg-warning text-white p-1">
+                  <span className="rounded-pill bg-warning text-white mt-2 mx-2 px-2 py-1">
                     HTML
                   </span>
-                  <span className="rounded-pill bg-info text-white p-1">
+                  <span className="rounded-pill bg-info text-white mt-2 mx-2 px-2 py-1">
                     CSS
                   </span>
                 </div>
-                <p className="card-text">
+                <p className="card-text mt-4">
                   Este proyecto, contituye la práctica del curso de Bootstrap de
                   platzi, en donde pude aplicar los conocimientos aprendidos,
                   NavBar, Carousel, Modal, Buttons, Cards

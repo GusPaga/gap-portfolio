@@ -1,6 +1,10 @@
 #cards {
     .card {
         min-height: 500px;
+        max-width: 450px;
+    }
+    .card-text {
+        min-height: 220px;
     }
     .title{
         // Metal Aurum //
@@ -34,4 +38,12 @@
         }
     }
 
+}
+@media (max-width: 500px) {
+
+    #cards {
+        .card-body {
+            padding: 5px !important;
+        }
+    }
 }

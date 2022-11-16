@@ -14,7 +14,7 @@ export const Formation = () => {
             className="carousel slide"
             data-bs-ride="carousel"
           >
-            <div className="carousel-inner">
+            <div className="carousel-inner mt-5">
               <div className="carousel-item active">
                 <img
                   src="https://i.ibb.co/c8BNMW3/Diploma-Henry.png"
