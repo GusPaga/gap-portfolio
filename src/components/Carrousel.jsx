@@ -49,18 +49,18 @@ export const Carrousel = () => {
 
                   <div className="col col-md-6 offset-md-3">
                     <a
+                      href="#cards"
+                      className="cardsButtons btn btn-outline-warning mx-2 p-1"
+                      data-toggle="modal"
+                    >
+                      Experiencia
+                    </a>
+                    <a
                       href="#footer"
-                      className="btn btn-outline-light"
+                      className="cardsButtons btn btn-outline-warning mx-2 p-1"
                       data-toggle="modal"
                     >
                       Contactame
-                    </a>{" "}
-                    <a
-                      href="#cards"
-                      className="btn btn-outline-light"
-                      data-toggle="modal"
-                    >
-                      Mi Experiencia
                     </a>
                   </div>
                 </div>

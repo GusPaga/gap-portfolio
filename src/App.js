@@ -13,6 +13,7 @@ import { NavBar } from "./components/NavBar";
 import { Formation } from "./components/Formation";
 import { Footer } from "./components/Footer";
 import { Technologies } from "./components/Technologies";
+import { GoUp } from "./components/GoUpButt";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Technologies />
       <Cards />
       <Formation />
+      <GoUp />
       <Footer />
     </div>
   );
