@@ -14,10 +14,10 @@ export const Carrousel = () => {
         data-bs-touch="false"
       >
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item active" data-bs-interval="5000">
             <img src={car2} className="d-block w-100" alt="carrousel1" />
           </div>
-          <div className="carousel-item" data-bs-interval="10000">
+          <div className="carousel-item">
             <img src={car3} className="d-block w-100" alt="carrousel2" />
           </div>
           <div className="carousel-item">
@@ -50,14 +50,14 @@ export const Carrousel = () => {
                   <div className="col col-md-6 offset-md-3">
                     <a
                       href="#cards"
-                      className="cardsButtons btn btn-outline-warning mx-2 p-1"
+                      className="cardsButtons btn btn-outline-warning mx-2 mt-3 p-1"
                       data-toggle="modal"
                     >
                       Experiencia
                     </a>
                     <a
                       href="#footer"
-                      className="cardsButtons btn btn-outline-warning mx-2 p-1"
+                      className="cardsButtons btn btn-outline-warning mx-2 mt-3 p-1"
                       data-toggle="modal"
                     >
                       Contactame

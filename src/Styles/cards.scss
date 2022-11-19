@@ -2,6 +2,9 @@
     
     .card {
         max-width: 450px;
+        img {
+            height: 300px;
+        }
     }
     .card-text {
         min-height: 200px;

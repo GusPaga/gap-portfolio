@@ -1,6 +1,7 @@
 #formation {
+    
     .title{
-        // Metal Aurum //
+                // Metal Aurum //
         background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
         // Metal //
         // background-image: radial-gradient( circle farthest-corner at 5.6% 54.5%,  rgba(47,71,79,1) 0%, rgba(159,188,198,1) 83.6% );
@@ -13,12 +14,15 @@
     }
     color: #fff;
     text-shadow: 1px 2px black;
-    // position: relative;
-    .carousel-inner{
+   
+    .carousel-inner {
+        background-image: url("https://i.ibb.co/BrxQrrR/pexels-pavel-danilyuk-7944238.jpg");
+        background-size: cover;
+        border-radius: 20px;
         img {
-            max-height: 60vh;
-            object-fit:scale-down;
-            //filter: grayscale(70%);
+            max-height: 50vh;
+            border-radius: 20px;
+            object-fit: contain;
         }
     }
 }

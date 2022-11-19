@@ -23,14 +23,26 @@
     }
     
 }
-.goup{
+.goup {
+    position: relative;
+    left: 90%;
+    bottom: -30px;
     border: none;
     border-radius: 10px;
-    left: 93vW;
     background-color:gold;
+    
     &:hover {
         transition: all .9s;
         transform: scale(1.1);
 
     }
+}
+
+@media (max-width: 600px){
+    .goup {
+        position: relative;
+        left: 75%;
+        
+        
+    }    
 }

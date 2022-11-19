@@ -1,6 +1,38 @@
 import "../Styles/formation.scss";
 
 export const Formation = () => {
+  let certificates = [
+    { name: "Henry", img: "https://i.ibb.co/zffBTBz/Diploma-Henry.png" },
+    {
+      name: "Bootstrap",
+      img: "https://i.ibb.co/gPYcwx3/certificated-bootstrap.png",
+    },
+    {
+      name: "Business Intelligence",
+      img: "https://i.ibb.co/s6cLnp5/certificated-Business-Intelligence.png",
+    },
+    {
+      name: "knowledge",
+      img: "https://i.ibb.co/JynNd3L/certificated-English-knowledge.png",
+    },
+    {
+      name: "HTML y CSS",
+      img: "https://i.ibb.co/D88k9d1/certificated-HTML-y-CSS.png",
+    },
+    {
+      name: "JavaScript",
+      img: "https://i.ibb.co/pwv6HDL/certificated-Java-Script.png",
+    },
+    {
+      name: "English",
+      img: "https://i.ibb.co/bs88hLV/certificated-learning-in-line.png",
+    },
+    {
+      name: "TypeScript",
+      img: "https://i.ibb.co/1XP7v3v/certificated-Type-Script.png",
+    },
+  ];
+
   return (
     <div id="formation">
       <div className="container-fluid">
@@ -10,61 +42,48 @@ export const Formation = () => {
             <small>Estos son algunas de mis certificaciones</small>
           </div>
           <div
-            id="carouselFormacion"
-            className="carousel slide"
+            id="carouselExampleFade"
+            className="carousel slide carousel-fade"
             data-bs-ride="carousel"
+            data-bs-touch="false"
           >
-            <div className="carousel-inner mt-5">
-              <div className="carousel-item active">
-                <img
-                  src="https://i.ibb.co/c8BNMW3/Diploma-Henry.png"
-                  className="d-block w-100"
-                  alt="Henry"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://i.ibb.co/TBp27VG/Sin-t-tulo.png"
-                  className="d-block w-100"
-                  alt="Business Intelligence"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://i.ibb.co/wzFnw54/Bootstrap.png"
-                  className="d-block w-100"
-                  alt="Bootstrap"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://i.ibb.co/NtLcCSN/HTML-y-CSS-definitivo.png"
-                  className="d-block w-100"
-                  alt="HTML y CSS definitivo"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://i.ibb.co/9t2HfrL/Java-Script-b-sico.png"
-                  className="d-block w-100"
-                  alt="JavaScript"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://i.ibb.co/9T40Rrm/Type-Script.png"
-                  className="d-block w-100"
-                  alt="TypeScript"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://i.ibb.co/WGP4GFf/Estrategias-para-aprender.png"
-                  className="d-block w-100"
-                  alt="Aprender en Línea"
-                />
-              </div>
+            <div className="carousel-inner my-5">
+              {certificates?.length > 0 &&
+                certificates.map((e) => {
+                  return (
+                    <div
+                      className="carousel-item active "
+                      data-bs-interval="2000"
+                    >
+                      <img src={e.img} alt={e.name} className="d-block w-100" />
+                    </div>
+                  );
+                })}
             </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden bg-warning">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </div>
