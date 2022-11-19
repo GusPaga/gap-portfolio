@@ -352,7 +352,7 @@ export const Cards = () => {
                   <a
                     href="*"
                     data-bs-toggle="modal"
-                    data-bs-target="#modalFoods"
+                    data-bs-target="#modalVirtualCv"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
