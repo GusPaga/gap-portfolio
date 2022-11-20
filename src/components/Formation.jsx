@@ -2,34 +2,34 @@ import "../Styles/formation.scss";
 
 export const Formation = () => {
   let certificates = [
-    { name: "Henry", img: "https://i.ibb.co/zffBTBz/Diploma-Henry.png" },
+    { name: "Henry", img: "https://i.ibb.co/SdQKLFQ/Diploma-Henry.png" },
     {
       name: "Bootstrap",
-      img: "https://i.ibb.co/gPYcwx3/certificated-bootstrap.png",
+      img: "https://i.ibb.co/wy3TPyS/certificated-bootstrap.png",
     },
     {
       name: "Business Intelligence",
-      img: "https://i.ibb.co/s6cLnp5/certificated-Business-Intelligence.png",
+      img: "https://i.ibb.co/ZLNwf8H/certificated-Business-Intelligence.png",
     },
     {
       name: "knowledge",
-      img: "https://i.ibb.co/JynNd3L/certificated-English-knowledge.png",
+      img: "https://i.ibb.co/Zfj3hNS/certificated-English-knowledge.png",
     },
     {
       name: "HTML y CSS",
-      img: "https://i.ibb.co/D88k9d1/certificated-HTML-y-CSS.png",
+      img: "https://i.ibb.co/MCcpgHQ/certificated-HTML-y-CSS.png",
     },
     {
       name: "JavaScript",
-      img: "https://i.ibb.co/pwv6HDL/certificated-Java-Script.png",
+      img: "https://i.ibb.co/hcNgfNR/certificated-Java-Script.png",
     },
     {
       name: "English",
-      img: "https://i.ibb.co/bs88hLV/certificated-learning-in-line.png",
+      img: "https://i.ibb.co/jy8zcg6/certificated-learning-in-line.png",
     },
     {
       name: "TypeScript",
-      img: "https://i.ibb.co/1XP7v3v/certificated-Type-Script.png",
+      img: "https://i.ibb.co/3TY5J5L/certificated-Type-Script.png",
     },
   ];
 
