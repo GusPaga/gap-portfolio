@@ -3,13 +3,16 @@ import "../Styles/carrousel.scss";
 export const Carrousel = () => {
   return (
     <section id="carrousel">
-      <div id="carousel" className="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carousel"
+        className="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-pause="false"
+        data-bs-keyboard="true"
+        data-bs-wrap="true"
+      >
         <div className="carousel-inner">
-          <div
-            className="carousel-item active"
-            data-bs-interval="2000"
-            data-bs-pause="none"
-          >
+          <div className="carousel-item active" data-bs-interval="5000">
             <img
               src=" https://i.ibb.co/vzSmr0z/carr1.png"
               className="d-block w-100"
