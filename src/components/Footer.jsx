@@ -3,7 +3,7 @@ export const Footer = () => {
     <footer id="footer" className="bg-dark mt-5">
       <div className="container align-items-center text-center">
         <div className="row align-items-center">
-          <div className="col-12 col-md-1 p-2">
+          <div className="col-6 col-md-1 p-2 my-3">
             <a
               href="https://github.com/GusPaga"
               target="_blank"
@@ -24,7 +24,7 @@ export const Footer = () => {
             <br />
             <spam>GitHub </spam>
           </div>
-          <div className="col-12 col-md-1 p-2">
+          <div className="col-6 col-md-1 p-2 my-3">
             <a
               href="https://www.linkedin.com/in/gustavopagano-5b39b4154/"
               target="_blank"
@@ -45,7 +45,7 @@ export const Footer = () => {
             <br />
             <spam>Linkedin </spam>
           </div>
-          <div className="col-12 col-md-10 text-md-end p-2">
+          <div className="col-12 col-md-10 text-md-end p-2 mb-3">
             <spam id="firma">- Gustavo Pagano Developer -</spam>
           </div>
         </div>

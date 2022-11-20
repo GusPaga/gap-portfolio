@@ -25,4 +25,12 @@
             object-fit: contain;
         }
     }
+
+    @media (max-width: 500px){
+     .carousel-inner {
+        background-image: none;
+       
+    }
+    }
 }
+

@@ -45,7 +45,6 @@ export const Formation = () => {
             id="carouselExampleFade"
             className="carousel slide carousel-fade"
             data-bs-ride="carousel"
-            data-bs-touch="false"
           >
             <div className="carousel-inner my-5">
               {certificates?.length > 0 &&
@@ -54,6 +53,7 @@ export const Formation = () => {
                     <div
                       className="carousel-item active "
                       data-bs-interval="2000"
+                      data-bs-pause="none"
                     >
                       <img src={e.img} alt={e.name} className="d-block w-100" />
                     </div>
