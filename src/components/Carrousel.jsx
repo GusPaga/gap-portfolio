@@ -1,8 +1,4 @@
 import "../Styles/carrousel.scss";
-import car2 from "../components/assets/carrousel2.jpg";
-import car3 from "../components/assets/carrousel3.jpg";
-import car4 from "../components/assets/carrousel4.jpg";
-import car5 from "../components/assets/carrousel5.jpg";
 
 export const Carrousel = () => {
   return (
@@ -15,16 +11,32 @@ export const Carrousel = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="5000">
-            <img src={car2} className="d-block w-100" alt="carrousel1" />
+            <img
+              src=" https://i.ibb.co/vzSmr0z/carr1.png"
+              className="d-block w-100"
+              alt="carrousel1"
+            />
           </div>
           <div className="carousel-item">
-            <img src={car3} className="d-block w-100" alt="carrousel2" />
+            <img
+              src="https://i.ibb.co/HdsBLDh/carr2.png"
+              className="d-block w-100"
+              alt="carrousel2"
+            />
           </div>
           <div className="carousel-item">
-            <img src={car4} className="d-block w-100" alt="carrousel3" />
+            <img
+              src="https://i.ibb.co/VvdjBvQ/carr3.png"
+              className="d-block w-100"
+              alt="carrousel3"
+            />
           </div>
           <div className="carousel-item">
-            <img src={car5} className="d-block w-100" alt="carrousel3" />
+            <img
+              src="https://i.ibb.co/Bf6FdvC/carr4.png"
+              className="d-block w-100"
+              alt="carrousel3"
+            />
           </div>
           <div className="overlay">
             <div className="container">
