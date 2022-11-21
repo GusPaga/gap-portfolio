@@ -50,20 +50,24 @@ export const Cards = () => {
       ],
       images: [
         {
+          name: "portada",
+          img: "https://i.ibb.co/0D3bH1Y/C-B.png",
+        },
+        {
           name: "landing",
-          img: "https://i.ibb.co/f1Zvr1c/C-B1.png",
+          img: "https://i.ibb.co/7tfqBWZ/C-B1.png",
         },
         {
-          name: "tech",
-          img: "https://i.ibb.co/VmH5Yhy/C-B-home.png",
+          name: "home",
+          img: "https://i.ibb.co/d4pPNYc/C-B-home.png",
         },
         {
-          name: "cards",
-          img: "https://i.ibb.co/b647h8Z/C-B.png",
+          name: "detail",
+          img: "https://i.ibb.co/MVjPhJh/C-B-Detail.png",
         },
         {
-          name: "formation",
-          img: "https://i.ibb.co/WHKhVFz/C-B-Detail.png",
+          name: "admin",
+          img: "https://i.ibb.co/hmq3pXj/C-B-Admin.png",
         },
       ],
     },
