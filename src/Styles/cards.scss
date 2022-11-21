@@ -25,8 +25,18 @@
         color: #fff;
         text-shadow: 1px 3px black;
     }
+
+    .badges{
+        span {
+            font-size: 16px;
+            color: #fff;
+            text-shadow: 1px 1px black;  
+            
+        }
+    }
     p {
         color: black;
+        text-align: justify;
     }
     .fs-30 {
         font-size: 30px;
