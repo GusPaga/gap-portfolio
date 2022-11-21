@@ -36,7 +36,7 @@ export const Cards = () => {
       title: "Cake & Bases",
       dataTarget: "#modalCb",
       id: "modalCb",
-      url: "http://gap-portfolio.vercel.app",
+      url: "https://cakes-and-bases.vercel.app/",
       youtube:
         "https://www.youtube.com/watch?v=eyvWmnxu6-8&ab_channel=GustavoPagano",
       paragraph:
