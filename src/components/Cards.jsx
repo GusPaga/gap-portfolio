@@ -280,7 +280,7 @@ export const Cards = () => {
                       {e.images?.length > 0 &&
                         e.images.map((b) => {
                           return (
-                            <div className="col col-md-6 col-lg-6">
+                            <div className="col-12 col-md-6 col-lg-6">
                               <img
                                 src={b.img}
                                 alt={b.name}
