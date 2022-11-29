@@ -111,7 +111,7 @@ export const Cards = () => {
       dataTarget: "#modalFoods",
       id: "modalFoods",
       paragraph:
-        " Este proyecto esta hecho con React, Redux, Sequelize, Express, Vanilla Css. Ademas, me permitió aprender a componentizar, ganar experiencia en el uso de Git y el orden del código y sobre todo consolidar los conocimientes de las tecnologías anteriormente mencionadas.",
+        "Este proyecto esta hecho con React, Redux, Sequelize, Express, Vanilla Css. Ademas, me permitió aprender a componentizar, ganar experiencia en el uso de Git y el orden del código y sobre todo consolidar los conocimientes de las tecnologías anteriormente mencionadas.",
 
       badges: [
         { name: "React" },
@@ -259,7 +259,7 @@ export const Cards = () => {
         </div>
       </div>
 
-      {/* MODAL FOODS */}
+      {/* MODAL */}
       {data?.length > 0 &&
         data.map((e) => {
           return (
@@ -296,7 +296,7 @@ export const Cards = () => {
             </div>
           );
         })}
-      {/* MODAL FOODS */}
+      {/* MODAL */}
     </div>
   );
 };
