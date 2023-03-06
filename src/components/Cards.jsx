@@ -33,6 +33,58 @@ export const Cards = () => {
 
   let data = [
     {
+      title: "Cattle Management v6",
+      dataTarget: "#modalCm",
+      id: "modalCm",
+      // url: "https://cakes-and-bases.vercel.app/",
+      youtube: "https://youtu.be/rzoZU0QtwvQ",
+      paragraph:
+        "En este proyecto, desarrolle la lógica necesaria para implementar un login con persistencia de datos de sesión, para lo que tuve que añadir usuarios a la DB, con sus modelo y rutas en Back y Front, para mostrar y validar la información de usuario, implementando localStorage y Sweet Alert 2 para mejorar la experiencia de usuario y junto con las validaciones en JS evitar enviar errores a la DB.  ",
+
+      badges: [
+        { name: "React" },
+        { name: "Node" },
+        { name: "Express" },
+        { name: "React-testing-library" },
+        { name: "Bootstrap" },
+        { name: "SweetAlert 2" },
+      ],
+      images: [
+        {
+          name: "landing",
+          img: "https://i.ibb.co/4jHfLyp/landing.png",
+        },
+        {
+          name: "login",
+          img: "https://i.ibb.co/Q6fqFb3/login.png",
+        },
+        {
+          name: "register",
+          img: "https://i.ibb.co/b62b2ZY/register.png",
+        },
+        {
+          name: "table",
+          img: "https://i.ibb.co/3CqY2Pr/table.png",
+        },
+        {
+          name: "SweetAlert",
+          img: "https://i.ibb.co/NS217ZB/sweet-Alert.png",
+        },
+        {
+          name: "modal create",
+          img: "https://i.ibb.co/ThRRB5b/modal-create.png",
+        },
+        {
+          name: "modal delete",
+          img: "https://i.ibb.co/XFnLtBv/modal-delete.png",
+        },
+        {
+          name: "modal Modify",
+          img: "https://i.ibb.co/4tzCrJL/modal-modify.png",
+        },
+      ],
+    },
+    {
       title: "Cake & Bases",
       dataTarget: "#modalCb",
       id: "modalCb",
